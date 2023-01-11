@@ -27,7 +27,7 @@ To develop the application, we need to follow some steps:
 
 We will use this information to initialize the Circle and call the API methods.
 
-Please, check out the <a href="https://internal.gocircle.ai/api/getstarted/">Circle Service getting started</a>. There is a step-by-step guide on how to download, install, and test the Circle Service.
+Please, check out the <a href="https://internal.circlesecurity.ai/api/getstarted/">Circle Service getting started</a>. There is a step-by-step guide on how to download, install, and test the Circle Service.
 
 ## 2. Create an Auth0 Client Application
 
@@ -173,12 +173,12 @@ Next, create the file /public/index.html with the above content
 
 <head>
 
-    <script src="https://internal.gocircle.ai/api/demo/lib/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://internal.gocircle.ai/api/demo/lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://internal.circlesecurity.ai/api/demo/lib/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://internal.circlesecurity.ai/api/demo/lib/bootstrap/bootstrap.bundle.min.js"></script>
     <script>
         var timestamp = new Date().getTime();
-        document.write(`\x3Cscript src="https://internal.gocircle.ai/api/gocircle.ai-bundle.js?t=${timestamp}">\x3C/script>`);
-        document.write(`\x3Cscript src="https://internal.gocircle.ai/api/gocircle.ai.js?t=${timestamp}">\x3C/script>`);
+        document.write(`\x3Cscript src="https://internal.circlesecurity.ai/api/gocircle.ai-bundle.js?t=${timestamp}">\x3C/script>`);
+        document.write(`\x3Cscript src="https://internal.circlesecurity.ai/api/gocircle.ai.js?t=${timestamp}">\x3C/script>`);
     </script>
 
     <script src="js/util.js"></script>
@@ -186,7 +186,7 @@ Next, create the file /public/index.html with the above content
     <script src="js/app.js"></script>
     <link rel="stylesheet" href="css/main.css">
 
-    <link rel="stylesheet" href="https://internal.gocircle.ai/api/demo/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://internal.circlesecurity.ai/api/demo/lib/bootstrap/bootstrap.min.css">
 
 
 
@@ -248,7 +248,7 @@ Next, create the file /public/index.html with the above content
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body d-flex justify-content-center">
-                    <img src="https://internal.gocircle.ai/api/demo/img/loading.gif" alt="Loading"
+                    <img src="https://internal.circlesecurity.ai/api/demo/img/loading.gif" alt="Loading"
                         style="height: 64px;">
                 </div>
             </div>
