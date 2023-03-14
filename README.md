@@ -177,8 +177,8 @@ Next, create the file /public/index.html with the above content
     <script src="https://internal.circlesecurity.ai/api/demo/lib/bootstrap/bootstrap.bundle.min.js"></script>
     <script>
         var timestamp = new Date().getTime();
-        document.write(`\x3Cscript src="https://internal.circlesecurity.ai/api/gocircle.ai-bundle.js?t=${timestamp}">\x3C/script>`);
-        document.write(`\x3Cscript src="https://internal.circlesecurity.ai/api/gocircle.ai.js?t=${timestamp}">\x3C/script>`);
+        document.write(`\x3Cscript src="https://cdn.circlesecurity.ai/circle/js/circlesecurity.ai-bundle.js?t=${timestamp}">\x3C/script>`);
+        document.write(`\x3Cscript src="https://cdn.circlesecurity.ai/circle/js/circlesecurity.ai.js?t=${timestamp}">\x3C/script>`);
     </script>
 
     <script src="js/util.js"></script>
