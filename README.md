@@ -107,7 +107,7 @@ async function circleToken() {
         data: urlParameters + '&signature=' + signature
     }
     try {
-        const ret = await axios.get("https://api.gocircle.ai/api/token?" + urlParameters + '&signature=' + signature);
+        const ret = await axios.get("https://api.circlesecurity.ai/api/token?" + urlParameters + '&signature=' + signature);
         const cleaned = JSON.parse(ret.data.toString().replace(/\r\n/g, ""));
         return cleaned;
 
@@ -133,7 +133,7 @@ APPKEY = 'your_circle_appkey'
 CUSTOMER_ID = 'your_circle_customer_id'
 USER_ID='your_circle_user_id'
 PRIVATE_KEY= 'youer_circle_private_key'
-API_URL = 'https://api.gocircle.ai/api/token'  
+API_URL = 'https://api.circlesecurity.ai/api/token'  
 SECRET= 'your_secret'
   
 ```
